@@ -1,3 +1,8 @@
+import java.io.InputStream;
+
+import org.eclipse.jetty.http.HttpTester.Input;
+
+import javafx.scene.input.InputEvent;
 
 public class Parrot {
     /**
@@ -12,6 +17,6 @@ public class Parrot {
      * @return text.
      */
     public String copy(String text){
-        return "return text please!";
+        return InputStream;
     }
 }
